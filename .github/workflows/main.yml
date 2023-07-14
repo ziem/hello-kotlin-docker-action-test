@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: Hello world action step
         uses: ziem/hello-kotlin-docker-action@main
+        with:
+          who-to-greet: 'Kotlin'
